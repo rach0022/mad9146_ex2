@@ -27,10 +27,10 @@ namespace FirstUWPApp
         // properties of the MainPage Class
         // media element control is a control that is capable of playing back audio
         // or video
-        readonly MediaElement mediaElement = new MediaElement();
+        private readonly MediaElement mediaElement = new MediaElement();
 
         // create a speech synthesizer object and a stream 
-        readonly SpeechSynthesizer speechSynthesizer = new SpeechSynthesizer();
+        private readonly SpeechSynthesizer speechSynthesizer = new SpeechSynthesizer();
         SpeechSynthesisStream speechSynthesisStream;
 
         public MainPage()
